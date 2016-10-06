@@ -1,0 +1,167 @@
+body {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	background-image: url("../images/seigaiha.png");
+
+}
+.wrapper{
+	max-width: 960px;
+	/* margin width is set to {0 auto -100px} to center the box in sticky footer properties at bottom */
+}
+
+/* top navigation properties */
+.navLinks {
+	float: right;
+	padding: 10px;
+}
+
+.navLinks a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.navLinks a:link {
+	color: #777777;
+}
+
+.navLinks a:visited {
+	color: none;
+}  
+
+.navLinks a:hover {
+	color: #4aaaa5;
+}
+
+.navLinks a:focus {
+	color: #666666;
+} 
+
+.navLinks a:active {
+	color: #4aaaa5;
+}
+
+ul {
+	list-style-type: none; /* takes bullets off */
+	display: inline-flex; /* makes list of links horizontal */
+}
+
+ul li {
+	padding: 20px;
+}
+
+/*heading properties*/
+
+.headingWrapper {
+	top: 0px;
+	position: relative;
+	height: 40px;
+	width: 960px;
+	margin: 0 auto 0 auto;
+	height: 80px;
+}
+
+h1, h2, h3 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	color: #4aaaa5;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: white;
+	width: 200px;
+	padding: 5px;
+	display: inline;
+	position: relative;
+	top: 20px;
+	padding: 24px;
+}
+
+.mainSection h2 {
+	border-bottom: #cccccc solid 3px;
+	padding-bottom: 20px;
+}
+
+.heading{
+	background: white;
+	border-bottom: #cccccc solid 2px;
+}
+
+/* main section stylings */
+.mainSection {
+	max-width: 650px;
+	float: left;
+	padding: 20px;
+	display: inline-block;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
+	top: 40px;
+	border: #dddddd solid 1px;
+}
+
+.profilePic {
+	padding: 20px 20px 20px 0px;
+	float: left;
+
+}
+
+.mainSection h3 {
+	padding-top: 20px;
+}
+
+/*sidebar*/
+.sideBar {
+	width: 270px;
+	padding: 0px 33px 0px;
+	float: right;
+	display: inline-block;
+	background-color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
+	top: 40px;
+	border: #dddddd solid 1px;
+}
+
+.iconImages {
+	text-align: center;
+}
+
+.icon {
+	padding: 20px 7px;
+}
+
+.sideBar h3 {
+	text-align: center;
+	border-bottom: #dddddd solid 3px;
+	padding: 20px;
+}
+
+/*footer properties, sticky footer*/
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important; /* This line and the next line are not necessary unless you need IE6 support */
+	height: 100%;
+	margin: 0 auto -100px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 100px; /* .push must be the same height as .footer */
+	clear: both;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.footer {
+	background-color: #666666;
+	border-top: #4aaaa5 solid 20px;
+}
+
+.footer p {
+	padding: 40px 0px 0px;
+	color: #ece1e1;
+}

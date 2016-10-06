@@ -1,0 +1,75 @@
+/* portfolio div wrapper dimensions */
+
+.portfolioWrapper div {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.portfolioWrapper {
+	width: 650px;
+}
+
+.portfolioWrapper div {
+	width: 245px;
+	height: 116px;
+	margin: 18px;
+}
+
+/* background images for each porfolio */
+
+#hangman {
+	background-image: url("../images/abstract_1.jpg");
+}
+
+#rpg {
+	background-image: url("../images/abstract_2.jpg");
+}
+
+#trivia {
+	background-image: url("../images/abstract_3.jpg");
+}
+
+#rutgers {
+	background-image: url("../images/abstract_4.jpg");
+}
+
+#rock {
+	background-image: url("../images/abstract_5.jpg");
+}
+
+/* portfolio label properties and positioning */
+
+.label h3 {
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	margin-top: 72px;
+	padding: 8px;
+}
+
+/* links properties */
+
+.portfolioWrapper a {
+	text-decoration: none;
+}
+
+.portfolioWrapper a:link {
+	color: white;
+}
+
+.portfolioWrapper a:visited {
+	color: none;
+}
+
+.portfolioWrapper a:hover {
+	color: white;
+}
+
+.portfolioWrapper a:focus {
+	color: white;
+}
+
+.portfolioWrapper a:active {
+	color: white;
+}

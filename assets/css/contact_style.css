@@ -16,3 +16,23 @@ textarea {
 .mainSection form {
 	padding-top: 20px;
 }
+
+.mainSection a:link {
+	color: none;
+}
+
+.mainSection a:visited {
+	color: none;
+}
+
+.mainSection a:hover {
+	background-color: grey;
+}
+
+.mainSection a:focus {
+	background-color: grey;
+}
+
+.mainSection a:active {
+	background-color: grey;
+}
